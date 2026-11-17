@@ -1,0 +1,41 @@
+name: Fix a bug
+description: Claim one of the three intentional bugs and track your first pull request.
+title: "fix: "
+labels: ["good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to claim an exercise before you open a pull request. It helps maintainers avoid duplicate work and gives new contributors a place to ask questions.
+
+  - type: dropdown
+    id: exercise
+    attributes:
+      label: Which bug are you fixing?
+      options:
+        - Odd Numbers — src/lib/bugs/numberTheory/oddNumbers.ts
+        - Even Numbers — src/lib/bugs/numberTheory/evenNumbers.ts
+        - Prime Numbers — src/lib/bugs/numberTheory/primeNumbers.ts
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: cause
+    attributes:
+      label: What do you think is wrong?
+      description: A one or two sentence explanation is enough. It is fine to say "not sure yet".
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: steps
+    attributes:
+      label: Checklist
+      options:
+        - label: I have read CONTRIBUTING.md.
+          required: true
+        - label: I have forked the repository and created a branch.
+          required: true
+        - label: I understand I should only change the exported function.
+          required: true

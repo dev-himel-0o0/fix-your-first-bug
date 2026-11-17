@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#0f172a"/>
+  <g fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="32" cy="36" rx="12" ry="14"/>
+    <path d="M32 22v-4"/>
+    <path d="M22 28l-6-4"/>
+    <path d="M42 28l6-4"/>
+    <path d="M20 38h-8"/>
+    <path d="M44 38h8"/>
+    <path d="M22 48l-5 4"/>
+    <path d="M42 48l5 4"/>
+    <path d="M32 23v26"/>
+  </g>
+</svg>

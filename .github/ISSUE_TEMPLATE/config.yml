@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contributing guide
+    url: https://github.com/dev-himel-0o0/fix-your-first-bug/blob/main/CONTRIBUTING.md
+    about: Step-by-step instructions for your first pull request.
+  - name: Questions and help
+    url: https://github.com/dev-himel-0o0/fix-your-first-bug/discussions
+    about: Ask for help without opening an issue.
