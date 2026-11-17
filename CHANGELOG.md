@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
-## [2.0.0] - 2026-11-17
+## [2.0.0] - 2026-11-18
 
 The project was rebuilt from scratch as a modern Next.js application. The three intentional bugs are unchanged.
 
@@ -44,7 +44,7 @@ The project was rebuilt from scratch as a modern Next.js application. The three 
 - The even number helper no longer reports odd numbers as even.
 - The prime number helper no longer reports `0` and `1` as prime.
 
-## [1.0.0] - 2021-09-05
+## [1.0.0] - 2021-02-14
 
 ### Added
 

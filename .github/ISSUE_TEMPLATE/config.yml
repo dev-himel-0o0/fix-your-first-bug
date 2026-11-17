@@ -3,6 +3,6 @@ contact_links:
   - name: Contributing guide
     url: https://github.com/dev-himel-0o0/fix-your-first-bug/blob/main/CONTRIBUTING.md
     about: Step-by-step instructions for your first pull request.
-  - name: Questions and help
-    url: https://github.com/dev-himel-0o0/fix-your-first-bug/discussions
-    about: Ask for help without opening an issue.
+  - name: Read the code of conduct
+    url: https://github.com/dev-himel-0o0/fix-your-first-bug/blob/main/CODE_OF_CONDUCT.md
+    about: How we keep this community welcoming for beginners.
