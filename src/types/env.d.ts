@@ -4,5 +4,6 @@ declare namespace NodeJS {
     NEXT_PUBLIC_SITE_URL?: string;
     GITHUB_TOKEN?: string;
     VERCEL_URL?: string;
+    VERCEL_PROJECT_PRODUCTION_URL?: string;
   }
 }
