@@ -4,6 +4,8 @@ Thanks for being here. This project exists so that your first open-source contri
 
 The whole app has three bugs. Fix one of them, or improve the project itself. Every pull request gets a Vercel preview deployment, and the CI workflow runs lint, type checks, a production build, and the Playwright suite.
 
+The maintained deployment is live at [fix-your-first-bug.vercel.app](https://fix-your-first-bug.vercel.app/). You can explore the finished app there before setting up a local copy.
+
 ## Before you start
 
 - **Node.js 20.9 or newer** (CI uses Node 22; see `.nvmrc`).

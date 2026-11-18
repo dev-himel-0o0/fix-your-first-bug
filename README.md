@@ -2,6 +2,7 @@
 
 > A tiny open-source playground for people who have never opened a pull request.
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-fix--your--first--bug.vercel.app-4f46e5)](https://fix-your-first-bug.vercel.app/)
 [![CI](https://github.com/dev-himel-0o0/fix-your-first-bug/actions/workflows/ci.yml/badge.svg)](https://github.com/dev-himel-0o0/fix-your-first-bug/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-amber.svg)](LICENSE)
 [![Next.js 16](https://img.shields.io/badge/Next.js-16.4.6-black.svg)](https://nextjs.org)
@@ -17,15 +18,15 @@ Most "good first issue" labels live in repositories with thousands of files. Tha
 
 ## Screenshot
 
-![Fix Your First Bug home page](docs/images/screenshot-home.png)
+[![Fix Your First Bug home page](docs/images/screenshot-home.png)](https://fix-your-first-bug.vercel.app/)
 
-_The landing page: a short explanation, a live preview of one of the bugs, and a direct route into the bug board._
+_The landing page: a short explanation, a live preview of one of the bugs, and a direct route into the bug board. Click the screenshot to open the live app._
 
 ## Live Demo & Links
 
 | Resource | Link |
 | --- | --- |
-| **Live project** | [fix-your-first-bug.vercel.app](https://fix-your-first-bug.vercel.app) |
+| **Live project** | [fix-your-first-bug.vercel.app](https://fix-your-first-bug.vercel.app/) |
 | **Source code** | [github.com/dev-himel-0o0/fix-your-first-bug](https://github.com/dev-himel-0o0/fix-your-first-bug) |
 | **Contribution guide** | [CONTRIBUTING.md](CONTRIBUTING.md) |
 | **Changelog & releases** | [CHANGELOG.md](CHANGELOG.md) · [v2.0.0 release](https://github.com/dev-himel-0o0/fix-your-first-bug/releases/tag/v2.0.0) |
@@ -137,6 +138,8 @@ Everything below is declared in [`package.json`](package.json). Transitive depen
 - **A fresh history without losing the original.** The old Create React App implementation remains available in the [original upstream repository](https://github.com/c0der-himel/fix-your-first-bug), while the rewrite started from an orphan branch with a clean, single-purpose commit history.
 
 ## Run Locally
+
+Prefer to see the finished app first? Open the [live demo](https://fix-your-first-bug.vercel.app/) before setting up a local copy.
 
 ### Prerequisites
 
@@ -251,7 +254,7 @@ Copy `.env.example` to `.env.local` for local overrides. All variables are optio
 
 ## Deployment
 
-The app deploys to Vercel with zero extra configuration:
+The app deploys to Vercel with zero extra configuration. The maintained production deployment is live at [fix-your-first-bug.vercel.app](https://fix-your-first-bug.vercel.app/).
 
 1. Import the repository at [vercel.com/new](https://vercel.com/new).
 2. Set `NEXT_PUBLIC_GITHUB_REPO` and `NEXT_PUBLIC_SITE_URL` in Project Settings → Environment Variables.
